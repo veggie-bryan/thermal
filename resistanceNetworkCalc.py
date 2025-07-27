@@ -7,6 +7,8 @@ NOTES
 >> This code helps calculate total thermal resistances.
 
 """
+
+
 def condR(L,k,A):
     R = L / (k*A)
     return R
@@ -19,9 +21,6 @@ def radR(e,A,T1,T2):
     sigma = 5.67*10**-8 # W/(m^2*K^4))
     R = 1 / (e * sigma * A * (T2+T1) * (T2**2 +T1**2))
     return R
-
-
-
 
 
 resistances = []
