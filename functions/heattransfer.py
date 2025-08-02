@@ -89,5 +89,5 @@ def resistance():
             print(R)
 
         if choice == 4:
-            break
+            calculator = False
 
